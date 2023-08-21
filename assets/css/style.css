@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    color: #212121;
+}
+p {
+    color: #52647C;
+}
+h4{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    padding-left: 220px;
+    max-width: 1000px;
+    text-align: center;
+}
+.comments{
+    padding-left: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.comment{
+    text-align: center;
+    max-width: 1000px;
+    justify-content: center;
+    
+}
+.post {
+    margin: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    float: left;
+    text-align: center;    
+    height: 150px;
+}
+
+

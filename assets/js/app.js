@@ -53,7 +53,7 @@ function render() {
         container.innerHTML += `
             <div class="post">
                 <h3><a data-postId="${currPost.id}" href="/${currPost.id}">${currPost.title}</a></h3>
-                <h4>Yazan:<p class="flex">${writer.name}</p></h4>
+                <h4>Writer:<p class="flex">${writer.name}</p></h4>
             </div>
             
     `
@@ -92,13 +92,4 @@ function bindPostsClicks() {
 loadData(function() {
     render();
 });
-
-
-// console.log('merhaba 1');
-// setTimeout(() => {
-//     console.log('merhaba 2');
-// },0);
-// console.log('merhaba 3');
-
-// closure
 
